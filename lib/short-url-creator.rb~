@@ -43,7 +43,7 @@ class ShortUrlCreator
 
   def generate(count)
     get_short_url(count)
-    @short_url.join
+    @short_url
   end
   def get_short_url(count)
     if count >  @array_size
